@@ -1,0 +1,4 @@
+Inception_V3_Pretrained:用于在ImageNet上Pretrained过后的InceptionV3网络进行训练，训练后的网络会保以save/Trained_Without_Validation_ + 训练轮数进行保存。
+get_features:用于对测试数据进行特征提取，运行后会对probe和gallery的特征提取以及各自的label保存。运行之后进入features文件夹再运行Tomat.py文件，就能得到对应的四个mat文件，方便之后放入matlab进行特征比对。
+
+特别说明，直接将整个文件及文件夹放在home/username下就好，不用V5这个额外的文件夹。
